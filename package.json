@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node server/server.js",
-    "build": "cd client && npm install --omit=dev && npm run build",
+    "build": "cd client && npm install && npm run build",
     "client": "npm run start --prefix client",
     "server": "nodemon server/server.js",
     "install": "cd client && npm install && cd ../server && npm install"
