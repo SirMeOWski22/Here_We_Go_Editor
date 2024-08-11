@@ -10,7 +10,6 @@
     "client": "npm run start --prefix client",
     "server": "nodemon server/server.js",
     "install": "cd client && npm install && cd ../server && npm install"
-
   },
   "keywords": [],
   "author": "Morgan",
@@ -21,6 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack-cli": "^5.1.4"
   }
 }
